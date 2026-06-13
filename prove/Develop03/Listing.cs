@@ -26,6 +26,9 @@ class Listing : Activity
 
         Console.WriteLine(chosenEN);
 
+        Console.WriteLine("Get ready to start listing");
+        Countdown(5);
+
         int countEN = 0;
         DateTime endTimeEN = DateTime.Now.AddSeconds(_durationEN);
         while (DateTime.Now < endTimeEN)

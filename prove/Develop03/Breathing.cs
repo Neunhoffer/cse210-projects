@@ -12,9 +12,9 @@ class Breathing : Activity
         DateTime endTimeEN = DateTime.Now.AddSeconds(_durationEN);
         while (DateTime.Now < endTimeEN)
         {
-            Console.WriteLine("Breathe in");
+            Console.Write("\nBreathe in");
             Pause(4);
-            Console.WriteLine("Breathe out");
+            Console.Write("\nBreathe out");
             Pause(4);
         }
 
